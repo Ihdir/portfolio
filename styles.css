@@ -3,6 +3,18 @@
     src: url(./NeueHaasDisplayMediu.ttf);
 }
 
+@font-face {
+    font-family: neu;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 200;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
