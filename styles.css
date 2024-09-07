@@ -26,6 +26,7 @@ body {
 
 #main {
     position: relative; /*isko hamesha laga diya karo, parent elements isse control karenge children ko */
+    background-color: #000;
 }
 
 #page1 {
@@ -334,9 +335,6 @@ nav h3 {
 .elem:hover .overlay {
     top: 0;
 }
-#elem-cointainer {
-   
-}
 
 #fixed-image {
     height: 30vw;
@@ -353,21 +351,44 @@ nav h3 {
 }
 
 #page4 {
-    height: 60vh;
+    height: 130vh;
     background-color: #EFEAE3;
     width: 100%;
 }
 
 #page5 {
-    height: 100vh;
+    height: 2000vh;
     width: 100%;
 
 }
 
 #footer {
     position: fixed;
+    height: 105vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
     z-index: 9;
     bottom: 0;
-    background-color: #000;
-    color: white;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1vw 3vw;
+}
+
+#footer h1 {
+    font-size: 23vw;
+}
+
+#footer-div {
+    height: 20vh;
+    width: 100%;
+    background-color: red;
+}
+
+#footer-bottom {
+    border-top: 1px solid #dadada;
+    height: 10vh;
+    width: 100%;
 }
